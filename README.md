@@ -9,14 +9,14 @@ Link dataset : https://drive.google.com/drive/folders/1zfdOSe2ErAox1JSwvVr4IYX09
 Command tối thiểu để có 1 lần train **có thể báo cáo trong paper** (không phải chỉ debug):
 
 ```bash
-python3 /content/l4_train_seq.py \
-    --stories /content/stories_theia_e3_v2.jsonl \
-    --labels  /content/labels_theia_e3.csv \
-    --stories /content/stories_trace_e3_v2.jsonl \
-    --labels  /content/labels_trace_e3.csv \
-    --eval_stories /content/stories_theia_e3_v2.jsonl \
-    --eval_labels  /content/labels_theia_e3.csv \
-    --out_dir /content/drive/MyDrive/l4_seq_model_losoA \
+python3 l4_train_seq.py \
+    --stories stories_theia_e3_v2.jsonl \
+    --labels  labels_theia_e3.csv \
+    --stories stories_trace_e3_v2.jsonl \
+    --labels  labels_trace_e3.csv \
+    --eval_stories stories_theia_e3_v2.jsonl \
+    --eval_labels  labels_theia_e3.csv \
+    --out_dir l4_seq_model_losoA \
     --epochs 30 \
     --batch_size 4 \
     --max_seq_len 8192 \
