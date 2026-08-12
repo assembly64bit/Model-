@@ -10,8 +10,6 @@ Command tối thiểu để có 1 lần train **có thể báo cáo trong paper*
 
 ```bash
 python3 l4_train_seq.py \
-    --stories stories_theia_e3_v2.jsonl \
-    --labels  labels_theia_e3.csv \
     --stories stories_trace_e3_v2.jsonl \
     --labels  labels_trace_e3.csv \
     --eval_stories stories_theia_e3_v2.jsonl \
