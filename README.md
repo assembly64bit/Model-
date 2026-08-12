@@ -1,7 +1,7 @@
 # README — `l4_train_seq.py` (L4 TCN+CharCNN Sequence Classifier)
 
 Tài liệu này rút thẳng từ code thật (`argparse` help text + logic training loop), không suy đoán. Nếu code đổi, README phải update theo — đừng tin README hơn code.
-link dataset : https://drive.google.com/drive/folders/1zfdOSe2ErAox1JSwvVr4IYX09U8eUTV9?usp=sharing
+Link dataset : https://drive.google.com/drive/folders/1zfdOSe2ErAox1JSwvVr4IYX09U8eUTV9?usp=sharing
 ---
 
 ## 1. Nguyên tắc chạy tối thiểu cho kết quả DÙNG ĐƯỢC (không phải smoke-test)
